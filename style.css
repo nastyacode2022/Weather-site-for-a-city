@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#days{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#current{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.days_cards{
+    width: 23%;
+    text-align: center;
+    padding: 1.5rem;
+    margin: bottom 2em;
+}
+
+.title{
+    font-size: 1.3rem;
+}
+
+.temprature{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.images{
+    width: 80%;
+}
